@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iron Blackhawk Operations</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #101820;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background: #0a0f14;
+    padding: 20px;
+    border-bottom: 3px solid #d4af37;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    color: #d4af37;
+    font-size: 2.5rem;
+}
+
+.logo p {
+    color: #cccccc;
+}
+
+nav {
+    margin-top: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #d4af37;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.btn {
+    display: inline-block;
+    background: #d4af37;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #f1c84b;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #d4af37;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #1a2530;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.requirements ul,
+.ranks ul {
+    list-style: none;
+}
+
+.requirements li,
+.ranks li {
+    padding: 10px;
+    border-bottom: 1px solid #2f3c4a;
+}
+
+form {
+    background: #1a2530;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #d4af37;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #f1c84b;
+}
+
+footer {
+    text-align: center;
+    background: #0a0f14;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.discord-box {
+    text-align: center;
+    padding: 30px;
+    background: #1a2530;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:2rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h1>IRON BLACKHAWK OPERATIONS</h1>
+        <p>Honor • Duty • Brotherhood</p>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#requirements">Requirements</a>
+        <a href="#ranks">Ranks</a>
+        <a href="#apply">Apply</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Arma Reforger Realism Community</h2>
+    <p>
+        Join a professional military simulation unit focused on tactical
+        gameplay, realistic operations, teamwork, and leadership.
+    </p>
+
+    <a href="#apply" class="btn">Apply Now</a>
+    <a href="https://discord.gg/YOURINVITE" class="btn">Join Discord</a>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Us</h2>
+
+    <div class="card">
+        <p>
+            Iron Blackhawk Operations is a realism-focused Arma Reforger
+            community dedicated to creating immersive military experiences.
+            We emphasize teamwork, communication, discipline, and tactical
+            excellence during every operation.
+        </p>
+    </div>
+</section>
+
+<section id="requirements" class="requirements">
+    <h2 class="section-title">Requirements</h2>
+
+    <div class="card">
+        <ul>
+            <li>✔ Own Arma Reforger</li>
+            <li>✔ Working Microphone</li>
+            <li>✔ Mature Attitude</li>
+            <li>✔ Ability to Follow Chain of Command</li>
+            <li>✔ Attend Scheduled Operations</li>
+            <li>✔ Respect All Community Rules</li>
+        </ul>
+    </div>
+</section>
+
+<section id="ranks" class="ranks">
+    <h2 class="section-title">Rank Structure</h2>
+
+    <div class="card">
+        <ul>
+            <li>Recruit</li>
+            <li>Private</li>
+            <li>Private First Class</li>
+            <li>Specialist</li>
+            <li>Corporal</li>
+            <li>Sergeant</li>
+            <li>Staff Sergeant</li>
+            <li>Platoon Leader</li>
+            <li>Company Commander</li>
+            <li>Operations Officer</li>
+            <li>Executive Officer</li>
+            <li>Commanding Officer</li>
+        </ul>
+    </div>
+</section>
+
+<section id="apply">
+    <h2 class="section-title">Recruit Application</h2>
+
+    <form>
+        <label>Discord Username</label>
+        <input type="text" required>
+
+        <label>Age</label>
+        <input type="number" required>
+
+        <label>Country</label>
+        <input type="text" required>
+
+        <label>Time Zone</label>
+        <input type="text" required>
+
+        <label>Arma Reforger Experience</label>
+        <textarea required></textarea>
+
+        <label>Previous MilSim Experience</label>
+        <textarea></textarea>
+
+        <label>Why Do You Want To Join?</label>
+        <textarea required></textarea>
+
+        <label>Availability</label>
+        <textarea required></textarea>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="discord-box">
+        <h3>Join Our Discord</h3>
+        <p>Connect with recruiters and community members.</p>
+        <br>
+        <a href="https://discord.gg/YOURINVITE" class="btn">
+            Join Discord
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Iron Blackhawk Operations. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
